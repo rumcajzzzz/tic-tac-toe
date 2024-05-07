@@ -2,6 +2,7 @@
 #include <fstream>
 #include <vector>
 #include <algorithm>
+#include <string>
 
 // !!!!!!!!
 // Przez to ze uzyte system("cls"), to tylko kompilowac na systemie windooows
@@ -68,7 +69,7 @@ void wczytajGraczy()
         std::ifstream players("players.txt");
         if (!players.is_open())
         {
-            std::cerr << "Nie mo¿na otworzyæ pliku players.txt \n";
+            std::cerr << "Nie moÂ¿na otworzyÃ¦ pliku players.txt \n";
             return;
         }
 
